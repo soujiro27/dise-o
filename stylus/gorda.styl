@@ -1,0 +1,76 @@
+azulClaro=#26bce0
+azulFuerte=#2c3e50
+blanco=#fff
+rojo=#c0392b
+esmeralda=#2ecc71
+gris=#efefef
+
+body
+	background gris
+
+header
+	background azulFuerte
+	color blanco
+	padding 1%
+	img
+		width 15%
+		display inline-block
+	div
+		width 80%
+		display inline-block
+		text-align center
+		vertical-align top
+		h2
+			font-style italic
+			font-family arial
+nav
+	ul
+		margin 0
+		li
+			display inline-block
+			width: 15%
+			background rojo
+			color blanco
+			padding 1%
+			text-align center
+			margin 1%
+			border-bottom 3px solid orange
+section.imagen
+	img
+		width 100%
+		height 300px
+section.articulos
+	article
+		width 30%
+		display inline-block
+		vertical-align top
+		margin 2% 1.5%
+		position relative
+		img
+			width 90%
+			display block
+			margin 1% auto
+			height 243px
+		&:after
+			content ""
+			position absolute
+			border-top 80px solid transparent
+			border-left 170px solid gris
+			border-right 0px solid esmeralda
+			border-bottom 0px solid blanco
+			bottom 185px
+			left 19px
+		&:before
+			content ""
+			position absolute
+			border-top 80px solid transparent
+			border-left 0px solid blanco
+			border-right 170px solid gris
+			border-bottom 0px solid blanco
+			bottom 185px
+			right 19px
+				
+		h2
+			text-align center
+		p
+			padding 1.5%

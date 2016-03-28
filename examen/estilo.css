@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"), url("./Flaticon.woff") format("woff"), url("./Flaticon.ttf") format("truetype"), url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+section.par article.triangulo,
+section.impar article.triangulo {
+  background: #2980b9;
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+section.par article.triangulo:after,
+section.impar article.triangulo:after {
+  content: '';
+  position: absolute;
+  border-top: 394px solid transparent;
+  border-right: 150px solid #fff;
+  border-bottom: 0px solid transparent;
+  border-left: 0px solid transparent;
+  top: 0;
+  right: 0;
+}
+section.par article.triangulo h2,
+section.impar article.triangulo h2 {
+  padding: 2%;
+  text-align: center;
+}
+section.par article.triangulo p,
+section.impar article.triangulo p {
+  width: 70%;
+  display: block;
+  margin: 10px auto 200px auto;
+  padding: 1%;
+}
+section.par article.icons,
+section.impar article.icons {
+  width: 37%;
+  display: inline-block;
+}
+section.par article.icons p,
+section.impar article.icons p {
+  margin: 10% 1%;
+  width: 86%;
+  display: inline-block;
+}
+section.par article.icons p.icon,
+section.impar article.icons p.icon {
+  width: 7%;
+  display: inline-block;
+}
+section.par article.icons p.icon:after,
+section.impar article.icons p.icon:after {
+  content: '\f108';
+  font-family: Flaticon;
+  font-size: 34px;
+  color: #2980b9;
+}
+section.par article.abajo,
+section.impar article.abajo {
+  background: #34495e;
+  color: #fff;
+  text-align: center;
+}
+section.par article.abajo h2,
+section.impar article.abajo h2 {
+  margin: 0;
+}
+section.par article.abajo p,
+section.impar article.abajo p {
+  margin: 0;
+  padding: 2%;
+}
+section.par article.abajo p.icon,
+section.impar article.abajo p.icon {
+  text-align: left;
+  color: #fff;
+}
+section.par article.abajo p.icon:after,
+section.impar article.abajo p.icon:after {
+  content: '\f108';
+  font-family: Flaticon;
+  font-size: 34px;
+}
+section.impar article.triangulo {
+  background: #2980b9;
+  width: 60%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+section.impar article.triangulo:after {
+  content: '';
+  position: absolute;
+  border-top: 394px solid transparent;
+  border-right: 0px solid #c0392b;
+  border-bottom: 0px solid #8e44ad;
+  border-left: 150px solid #fff;
+  top: 0;
+  left: 0;
+}
+section.impar article.triangulo h2 {
+  padding: 2%;
+  text-align: center;
+}
+section.impar article.triangulo p {
+  width: 70%;
+  display: block;
+  margin: 10px auto 200px auto;
+  padding: 1%;
+}
+section.impar article.icons {
+  width: 37%;
+  display: inline-block;
+}
+section.impar article.icons p {
+  margin: 10% 1%;
+  width: 86%;
+  display: inline-block;
+}
+section.impar article.icons p.icon {
+  width: 7%;
+  display: inline-block;
+}
+section.impar article.icons p.icon:after {
+  content: '\f108';
+  font-family: Flaticon;
+  font-size: 34px;
+  color: #2980b9;
+}
+section.impar article.abajo {
+  background: #34495e;
+  color: #fff;
+  text-align: center;
+}
+section.impar article.abajo h2 {
+  margin: 0;
+}
+section.impar article.abajo p {
+  margin: 0;
+  padding: 2%;
+}
+section.impar article.abajo p.icon {
+  text-align: left;
+  color: #fff;
+}
+section.impar article.abajo p.icon:after {
+  content: '\f108';
+  font-family: Flaticon;
+  font-size: 34px;
+}

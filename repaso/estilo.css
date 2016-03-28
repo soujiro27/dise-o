@@ -1,0 +1,29 @@
+body
+{
+    background:linear-gradient(45deg,#26b0f0,#fff);
+    font-size: 16px;
+}
+
+
+
+header img
+{
+	border: 1px solid red;
+	display: inline-block;
+	width:15%;
+}
+
+header nav
+{
+	border: 1px solid yellow;
+	display: inline-block;
+	width: 82%;
+}
+
+li
+{
+	display: inline-block;
+	width: 16%;
+	background: linear-gradient(45deg,red,green);
+	padding: 1%;	
+}

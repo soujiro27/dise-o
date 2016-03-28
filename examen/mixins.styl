@@ -1,0 +1,29 @@
+azul=#2980b9
+rojo=#c0392b
+verde=#27ae60
+morado=#8e44ad
+blanco=#fff
+negro=#000
+azulObscuro=#34495e
+
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+triangulo(arriba,derecha,abajo,izquierda,colorA,colorD,colorAb,colorI)
+	content ''
+	position absolute
+	border-top arriba solid colorA
+	border-right derecha solid colorD
+	border-bottom abajo solid colorAb
+	border-left izquierda solid colorI

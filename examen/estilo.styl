@@ -1,0 +1,107 @@
+@import 'mixins'
+
+
+section.par,section.impar
+	article.triangulo
+		background azul
+		width 60%
+		display inline-block
+		vertical-align top
+		position relative
+		&:after
+			triangulo(394px,150px,0px,0px,transparent,blanco,transparent,transparent)
+			top 0
+			right 0
+		h2
+			padding 2%
+			text-align center
+		p
+			width 70%
+			display block
+			margin 10px auto 200px auto
+			padding 1%
+	article.icons
+		width 37%
+		display inline-block
+		
+		p
+			margin 10% 1%
+			width 86%
+			display inline-block
+		p.icon
+			width 7%
+			display inline-block
+			&:after
+				content '\f108'
+				font-family Flaticon
+				font-size 34px
+				color azul
+	article.abajo
+		background azulObscuro
+		color blanco
+		text-align center
+		h2
+			margin 0
+		p
+			margin 0
+			padding 2%
+		p.icon
+			text-align left
+			color blanco
+			&:after
+				content '\f108'
+				font-family Flaticon
+				font-size 34px
+section.impar
+	article.triangulo
+		background azul
+		width 60%
+		display inline-block
+		position relative
+		vertical-align top
+		&:after
+			triangulo(394px,0px,0px,150px,transparent,rojo,morado,blanco)
+			top 0
+			left 0
+		h2
+			padding 2%
+			text-align center
+		p
+			width 70%
+			display block
+			margin 10px auto 200px auto
+			padding 1%
+	article.icons
+		width 37%
+		display inline-block
+		
+		p
+			margin 10% 1%
+			width 86%
+			display inline-block
+		p.icon
+			width 7%
+			display inline-block
+			&:after
+				content '\f108'
+				font-family Flaticon
+				font-size 34px
+				color azul
+	article.abajo
+		background azulObscuro
+		color blanco
+		text-align center
+		h2
+			margin 0
+		p
+			margin 0
+			padding 2%
+		p.icon
+			text-align left
+			color blanco
+			&:after
+				content '\f108'
+				font-family Flaticon
+				font-size 34px
+	
+				

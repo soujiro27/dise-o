@@ -1,0 +1,31 @@
+body {
+  background: #efefef;
+}
+p {
+  position: relative;
+}
+p:after {
+  content: "";
+  position: absolute;
+  border-top: 15px solid #26bce0;
+  border-bottom: 50px solid #efefef;
+  border-left: 50px solid #c0392b;
+  border-right: 50px solid #27ae60;
+}
+p:before {
+  content: "";
+  position: absolute;
+  border-top: 100px solid #26bce0;
+  border-bottom: 100px solid #efefef;
+  border-left: 100px solid #c0392b;
+  border-right: 100px solid #27ae60;
+}
+h1 {
+  font-size: 40px;
+  color: #c0392b;
+  font-family: arial;
+  font-style: italic;
+}
+h2 {
+  font-size: 30px;
+}
